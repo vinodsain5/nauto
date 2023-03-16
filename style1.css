@@ -1,0 +1,199 @@
+.contact-icon {
+  display: flex;
+  margin-top: 1.5rem;
+  margin-left: 56px;
+}
+
+.fabb {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  background-color: #4267b2;
+  cursor: pointer;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0 0.4rem;
+  transition: all 0.4s ease-in-out;
+}
+
+.twit {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  background-color: #1da1f2;
+  cursor: pointer;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0 0.4rem;
+  transition: all 0.4s ease-in-out;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  background-color: #0072b1;
+  cursor: pointer;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0 0.4rem;
+  transition: all 0.4s ease-in-out;
+}
+
+.add {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  background-color: #d64f19;
+  cursor: pointer;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0 0.4rem;
+  transition: all 0.4s ease-in-out;
+}
+
+/* .contact-icon a:hover {
+  background-color: var(--color-secondary);
+} */
+
+.contact-icon a:hover i {
+  color: var(--color-primary);
+}
+
+.contact-icon a i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+}
+
+.devpic img {
+  /* width: 300px; */
+  height: 58vh;
+}
+
+.img {
+  height: 2rem;
+}
+.img1 {
+  height: 3.3rem;
+}
+
+/* .register-form{
+    margin-left: 25px;
+} */
+
+.register-form {
+  margin-top: -176px;
+  position: relative;
+  /* background-color: green; */
+  justify-content: revert;
+  /* display: flex; */
+  /* align-items: start; */
+  margin-right: 1000px4;
+  left: 841px;
+  padding: 74px;
+}
+
+.register-form .form-wrapper {
+  box-shadow: 0 6px 12px 0 rgb(21 23 26 / 12%);
+  border-radius: 6px;
+  background-color: #fff;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+user agent stylesheet div {
+  display: block;
+}
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+.form-header {
+  position: relative;
+  padding: 28px 16px 10px;
+  /* padding: 28px 16px 30px; */
+  text-align: center;
+}
+
+.content h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  line-height: 130%;
+  font-weight: 400;
+}
+.mktoForm {
+  text-align: left;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+}
+
+.mktoForm .mktoFormRow {
+  clear: both;
+}
+
+.mktoButtonRow {
+  display: inline-block;
+  position: relative;
+}
+
+.mktoForm button.mktoButton {
+  cursor: pointer;
+  margin: 0;
+  margin-left: -51px;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+button {
+  border-radius: 0;
+}
+
+.mktoForm.mktoLayoutAbove .mktoField,
+.mktoForm.mktoLayoutAbove .mktoLogicalField {
+  clear: left;
+}
+form.mktoForm .mktoField {
+  border: none;
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
+  /* outline: none; */
+  color: #000;
+  
+}
+form.mktoForm .mktoField::placeholder{
+  color: #000;
+}
+.mktoForm .mktoField {
+  line-height: 1.2em;
+  font-size: 1em;
+  float: left;
+}
